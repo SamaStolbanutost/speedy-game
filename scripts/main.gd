@@ -32,4 +32,6 @@ func _physics_process(delta):
 		global.score -= 1
 		timer_2 = 0
 		
-	$"Label".text = "Score: " + str(global.score)
+	$"score_counter".text = "Score: " + str(global.score)
+	$"speed_counter".text = "Speed: " + str(global.speed)
+	$"objects_counter".text = "Objs: " + str(global.objects)
