@@ -8,4 +8,5 @@ func _ready():
 
 func _on_Area2D_mouse_entered():
 	global.score += 10
+	global.objects -= 1
 	queue_free()
